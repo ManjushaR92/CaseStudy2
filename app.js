@@ -34,9 +34,6 @@ app.get('/',function(req,res){
 });
 
 
-
-
-const PORT=process.env.PORT||4343;
-app.listen(PORT,()=>{
-    console.log(`Server Ready on port ${PORT}`);
-}); 
+app.listen(4343,()=>{
+    console.log("Server Ready on 4343");
+});
