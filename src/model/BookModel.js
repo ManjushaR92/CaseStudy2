@@ -1,5 +1,16 @@
+require('dotenv').config();
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/CaseStudy2');
+mongoose.connect(process.env.DATABASE,{
+    useNewUrlParser:true,
+    useUnifiedTopology:true
+});
+
+mongoose.connection.on('open',()=>{
+    console.log('Mongoose connection open');
+})
+.on('error',(err)=>{
+    console.log(`Connection error:${err.message}`);
+});
 const Schema = mongoose.Schema;
 
 
