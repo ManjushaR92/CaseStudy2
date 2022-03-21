@@ -1,3 +1,9 @@
+@media screen and (max-width:500px){
+    #basicExampleNav ul{
+      float: none;
+      display: block;
+    }
+
 body{
     background-image: url('../images/book1.jpeg');
     background-size: cover;
@@ -48,4 +54,5 @@ a{
 
 a:hover{
     color: white;
+}
 }
