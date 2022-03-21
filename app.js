@@ -33,8 +33,8 @@ app.get('/',function(req,res){
     
 });
 
-let port = process.env.PORT ||8000;
+let port = process.env.PORT ||8080;
 
 app.listen(port, ()=>{
-    console.log("Server Ready on 4343");
+    console.log("Server Ready on 8080");
 });
