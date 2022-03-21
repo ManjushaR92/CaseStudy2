@@ -33,7 +33,8 @@ app.get('/',function(req,res){
     
 });
 
+let port = process.env.PORT ||8000;
 
-app.listen(4343,()=>{
+app.listen(port, ()=>{
     console.log("Server Ready on 4343");
 });
