@@ -1,9 +1,7 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
-mongoose.connect(process.env.DATABASE,{
-    useNewUrlParser:true,
-    useUnifiedTopology:true
-});
+mongoose.connect("mongodb+srv://usertwo:usertwo@manjufiles.feq2g.mongodb.net/MYFILES?retryWrites=true&w=majority");
+
 const Schema = mongoose.Schema;
 
 

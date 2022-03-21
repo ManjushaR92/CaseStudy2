@@ -33,6 +33,6 @@ app.get('/',function(req,res){
     
 });
 
-app.listen(process.env.PORT||8080, ()=>{
-    console.log("Server Ready on 8080");
+app.listen(process.env.PORT||4343, ()=>{
+    console.log("Server Ready on 4343");
 });
