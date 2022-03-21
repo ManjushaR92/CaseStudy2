@@ -1,0 +1,71 @@
+body{
+    background-image: url('../images/bg1book.jpeg');
+    background-size: cover;
+    
+    
+  }
+
+.navbar{
+    background:rgb(243, 213, 131);
+    opacity: .75;
+    width:100%;    
+}
+
+.navbar-brand{
+    color: black;
+}
+
+
+.carousel-item{
+
+    height: 100vh;
+    min-height: 500px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+    
+    
+    
+
+    /* height:500px;
+    margin-top: 100px;
+    padding-bottom: 75px;
+    padding-left: 75px;
+    padding-right: 75px; */
+    /* min-height: 500px; */
+    /* background: no-repeat center center scroll;
+    background-size: cover; */
+    /* opacity: 50%; */
+    
+}
+
+
+.carousel-caption{
+    bottom: 270px;
+    opacity: 75%;
+}
+.carousel-caption h4{
+    font-size: 80px;
+    letter-spacing: 5px;
+    color:white;   
+}
+
+.carousel-caption h4{
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+footer{
+    
+    color: black;
+    background:  rgb(115, 221, 179);
+    opacity:.75 !important;
+    
+}
+a{
+    color: black;
+    text-decoration: none !important;
+}
+
+a:hover{
+    color: white;
+}
