@@ -5,16 +5,21 @@ body{
     
   }
 
+
+  
 .navbar{
     background:rgb(243, 213, 131);
     opacity: .75;
-    width:100%;    
+    width:100%; 
+    height: 10%;   
 }
-
+@media screen and (max-width: 44em){
+    #basicExampleNav[navbar-collapse]
+       
 .navbar-brand{
-    color: black;
+    color: white;
 }
-
+}
 
 .carousel-item{
 
